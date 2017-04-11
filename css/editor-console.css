@@ -15,7 +15,9 @@ textarea {
     resize: none;
 }
 
-
+.text-instructions{
+    margin-left: 15px;
+}
 
 .container{
 
