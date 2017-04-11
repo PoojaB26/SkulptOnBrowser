@@ -29,7 +29,7 @@
     </div>
     <div class="row">
         <div class="code-editor-wrap well row">
-        <div id="code-editor" >
+        <div class="code-editor" >
             <form>
 <textarea class="editor" id="test-code">
 
@@ -41,32 +41,55 @@ print(Water)
             </form>
             </div>
             <br><br>
-            <div class=" rows float-right ">
+            <div class=" rows ">
                 <div class="col-xs-9"></div>
                 <div class="col-xs-3">
                     <button class="btn btn-info" type="button" onclick="runit()"><span>Run</span></button>
                 </div>
             </div>
         </div>
+        <div>
+            Text here as well
+        </div>
 
+        <div class="code-editor-wrap well row">
+            <div class="code-editor" >
+                <form>
+                    <p class="screen"  id="code-output">
 
-        <div class="console-show row">
-            <div id='bar'>
-                <div id='controls'>
-                    <div class='c'><p class='control'>&times;</p></div>
-                    <div class='c'><p class='control'>&minus;</p></div>
-                </div>
-                <p id='title'>Python Console</p>
+                        Output
+                    </p>
+
+                </form>
             </div>
-            <div id='screen'>
+            <br><br>
+            <div class=" rows ">
+                <div class="col-xs-9"></div>
+                <div class="col-xs-3">
+                    <button class="btn btn-danger" type="button"><span>Clear</span></button>
+                </div>
+            </div>
+        </div>
+
+
+      <!--  <div class="console-show well">
+
+            <div class='screen'>
                 <p id="code-output">
 
                     Output
                 </p>
             </div>
+            <br><br>
+            <div class=" rows ">
+                <div class="col-xs-9"></div>
+                <div class="col-xs-3">
+                    <button class="btn btn-info" type="button"><span>Clear</span></button>
+                </div>
+            </div>
 
 
-        </div>
+        </div>-->
     </div>
 
 
