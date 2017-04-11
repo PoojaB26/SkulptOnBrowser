@@ -5,6 +5,9 @@
     font-size: 12px;
     font-family: 'Source Code Pro', serif;
 }
+body{
+    padding:50px 250px 90px 250px;
+}
 textarea {
     background: transparent;
 
@@ -82,11 +85,15 @@ textarea {
     display: inline-block;
     background: black;
     color:green;
-    min-height: 150px;
+    min-height: 130px;
     overflow: hidden;
     resize: inherit;
 }
+.code-editor-wrap{
 
+    padding: 15px;
+    margin:15px;
+}
 #code-editor{
     margin-right: 2%;
     display: inline-block;

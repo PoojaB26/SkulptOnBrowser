@@ -23,15 +23,12 @@
 </head>
 
 <body>
-<div id="page4b">
-
-    <div id="section1">
-        <p>
-            Lets <i class="code">print</i> the quantity of water. Press Next.
-        </p>
-
+<div id="container-fluid">
+    <div class="row">
+        Hello Text here
     </div>
-    <div class="container">
+    <div class="row">
+        <div class="code-editor-wrap well row">
         <div id="code-editor" >
             <form>
 <textarea class="editor" id="test-code">
@@ -42,12 +39,18 @@ print(Water)
 </textarea><br/>
 
             </form>
-            <button class="btn-result" type="button" onclick="runit()"><span>Run</span></button>
-
+            </div>
+            <br><br>
+            <div class=" rows float-right ">
+                <div class="col-xs-9"></div>
+                <div class="col-xs-3">
+                    <button class="btn btn-info" type="button" onclick="runit()"><span>Run</span></button>
+                </div>
+            </div>
         </div>
 
 
-        <div class="console-show">
+        <div class="console-show row">
             <div id='bar'>
                 <div id='controls'>
                     <div class='c'><p class='control'>&times;</p></div>
@@ -66,12 +69,7 @@ print(Water)
         </div>
     </div>
 
-    <div id="go-next">
 
-        <p id="code-remark"></p>
-        <button class="btn" type="button" onclick="nextPage()"><span>Next</span></button>
-
-    </div>
 
 </div>
 

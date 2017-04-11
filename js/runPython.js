@@ -13,10 +13,10 @@ function nextPage() {
 // to a pre element.
 function outf(text) {
     var outputText = document.getElementById("code-output");
-    var resultText = document.getElementById("code-remark");
+  //  var resultText = document.getElementById("code-remark");
 
     outputText.innerHTML = outputText.innerHTML + text;
-    showDivGoNext();
+   // showDivGoNext();
 
 }
 
