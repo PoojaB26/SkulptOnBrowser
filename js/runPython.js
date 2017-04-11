@@ -1,13 +1,22 @@
-/**
- * Created by pblead26 on 11-Apr-17.
- */
+
+
+function showDivGoNext() {
+    document.getElementById('go-next').style.visibility = "visible";
+}
+
+function nextPage() {
+    $(function() {
+        $("#page4b").load("page5.html");
+    });   }
 
 // output functions are configurable.  This one just appends some text
 // to a pre element.
 function outf(text) {
     var outputText = document.getElementById("code-output");
+    var resultText = document.getElementById("code-remark");
 
     outputText.innerHTML = outputText.innerHTML + text;
+    showDivGoNext();
 
 }
 
