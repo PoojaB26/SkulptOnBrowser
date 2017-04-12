@@ -56,3 +56,12 @@ textarea {
     align-items: center;
     justify-content: center;
 }
+.btn-trans {
+    background:none;
+    box-shadow:none;
+}
+
+#btn-hint{
+    color: #4271ff;
+    font-weight: bold;
+}
