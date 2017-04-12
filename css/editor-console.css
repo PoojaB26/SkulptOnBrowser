@@ -7,75 +7,19 @@
 }
 body{
     background-color: #f7f7f7;
-
     padding:50px 250px 90px 250px;
 }
 textarea {
     background: transparent;
-
     height: 190px;
     resize: none;
 }
-
+/*style for the instruction text*/
 .text-instructions{
     margin-left: 15px;
 }
 
-.container{
-
-    display: flex;
-    width: 65%;
-    height: 50%;
-}
-
-
-#console-show{
-
-    display: inline-block;
-    padding: 15px;
-    margin: 15px;
-}
-
-
-
-#console {
-
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 20px;
-}
-#bar {
-
-    background: #efefef;
-    padding: 8px;
-    border-radius: 8px 8px 0 0;
-    height: 30px;
-    display: flex;
-}
-.c {
-
-    font-family: sans-serif;
-    font-style: normal;
-    background: #ccc;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    text-align: center;
-    display: inline-block;
-}
-#controls:hover {
-    cursor: pointer;
-}
-.c p {
-    font-size: 20px;
-    position: relative;
-    top: -3px;
-}
-#title {
-    width: 80%;
-    text-align: center;
-}
-.screen {
+.output-screen {
     background: black;
     color: green;
     width: calc(100% - 5px);
@@ -83,7 +27,7 @@ textarea {
     border-radius: 0 0 8px 8px;
     font-weight: bold;
 }
-.screen {
+.output-screen {
     padding-left: 5px;
 }
 .editor {
