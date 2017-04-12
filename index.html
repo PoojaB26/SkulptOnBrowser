@@ -64,23 +64,13 @@ print(element)
                     </div>
                 </div>
             </div>
-          <!--  <div class="show-code "><code contentEditable="false">
-                <p>function add(a, b) {</p>
-                <p>  //interesting fun</p>
-                <p>  return a + b;</p>
-                <p>}</p></code>
-            </div><br>-->
 
-
-            <!-- Modal -->
-            <div class="modal fade" id="hintModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <!-- Hint Modal -->
+            <div class="modal fade modal-wrap" id="hintModal" tabindex="-1" role="dialog" aria-labelledby="text-question" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Title name</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
+                            <h5 class="modal-title" id="text-question">Title name</h5>
                         </div>
                         <div class="modal-body">
                             <p>
@@ -124,7 +114,32 @@ print(element)
 
 
 
-    </div>
+        <div class="btn-wrapper">
+            <button  class="btn btn-primary btn-center" type="button" data-toggle="modal" data-target="#points-modal" ><span>Continue</span></button>
+        </div>
+
+            <!-- Congrats Modal -->
+            <div class="modal fade modal-wrap" id="points-modal" tabindex="-1" role="dialog" aria-labelledby="text-congrats" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="text-congrats">Congratulations</h5>
+
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae,
+                            </p>
+                            <div class="btn-wrapper">
+                                <button  type="button" class="btn btn-primary btn-center" onclick="nextPage()">Continue</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
 </div>
 <script type="text/javascript" src="js/runPython.js"></script>
 </body>

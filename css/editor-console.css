@@ -8,6 +8,8 @@
 body{
     background-color: #f7f7f7;
     padding:50px 250px 90px 250px;
+    align-content: center;
+
 }
 textarea {
     background: transparent;
@@ -64,4 +66,20 @@ textarea {
 #btn-hint{
     color: #4271ff;
     font-weight: bold;
+}
+
+
+
+
+.btn-wrapper {
+    width:100%;
+    height:50px;
+}
+.btn-center{
+    height:40px;
+    position:relative;
+    margin: -20px -50px;
+    width:100px;
+    top:50%;
+    left:50%;
 }
