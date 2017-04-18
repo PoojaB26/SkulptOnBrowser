@@ -20,10 +20,7 @@
     height: 60px;
 }
 
-.modal-text{
-    display: block;
-    margin-top: 30px;
-}
+
 
 #modal-congrats-text{
     font-family: 'Anton', sans-serif;
@@ -41,9 +38,6 @@
     background-color: #4271ff;
 }
 
-.modal-btn-wrap{
-
-}
 
 #btn-nextpage{
     width: 100px;

@@ -8,6 +8,12 @@ function nextPage() {
         location.href = "page2.html";
 }
 
+function clearConsole(){
+    var outputText = document.getElementById("code-output");
+    outputText.innerHTML = " ";
+}
+
+
 // output functions are configurable.  This one just appends some text
 // to a pre element.
 function outf(text) {
