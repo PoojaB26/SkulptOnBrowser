@@ -16,10 +16,6 @@ textarea {
     height: 190px;
     resize: none;
 }
-/*style for the instruction text*/
-.text-instructions{
-    margin-left: 15px;
-}
 
 .output-screen {
     background: black;
@@ -57,29 +53,4 @@ textarea {
     display: block;
     align-items: center;
     justify-content: center;
-}
-.btn-trans {
-    background:none;
-    box-shadow:none;
-}
-
-#btn-hint{
-    color: #4271ff;
-    font-weight: bold;
-}
-
-
-
-
-.btn-wrapper {
-    width:100%;
-    height:50px;
-}
-.btn-center{
-    height:40px;
-    position:relative;
-    margin: -20px -50px;
-    width:100px;
-    top:50%;
-    left:50%;
 }

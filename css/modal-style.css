@@ -17,3 +17,18 @@
     text-align: left;
     vertical-align: middle;
 }
+
+.modal-body{
+    padding: 10%;
+    margin: 0;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+#points-modal{
+}
+
+#modal-congrats-text{
+    position: relative;
+}
+

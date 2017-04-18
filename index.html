@@ -16,13 +16,16 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-    <!--Font Awesome CSS-->
+    <!--Font CSS-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Cabin" rel="stylesheet">
 
     <!--Project CSS files-->
     <link rel="stylesheet" href="css/editor-console.css">
     <link rel="stylesheet" href="css/code-snippet.css">
     <link rel="stylesheet" href="css/modal-style.css">
+    <link rel="stylesheet" href="css/button-style.css">
+    <link rel="stylesheet" href="css/element-style.css">
 
 
 </head>
@@ -31,6 +34,7 @@
 <div class="wrap">
     <div class="content container-fluid">
         <div class="row">
+            <p class="text-instructions heading">Heading</p>
             <p class="text-instructions">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
                 Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
                 Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
@@ -113,26 +117,56 @@ print(element)
         </div>
 
 
+        <p class="text-instructions">Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
 
         <div class="btn-wrapper">
             <button  class="btn btn-primary btn-center" type="button" data-toggle="modal" data-target="#points-modal" ><span>Continue</span></button>
         </div>
 
             <!-- Congrats Modal -->
-            <div class="modal fade modal-wrap" id="points-modal" tabindex="-1" role="dialog" aria-labelledby="text-congrats" aria-hidden="true">
+            <div class="modal fade modal-wrap" id="points-modal"  data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="text-congrats" aria-hidden="true" >
                 <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="text-congrats">Congratulations</h5>
+                    <div class="modal-content container-fluid">
 
-                        </div>
                         <div class="modal-body">
-                            <p>
+
+                            <div class=" rows ">
+                                <div class="col">
+                                    <img id="img-checked"  src="img/checked.png" alt="Congratulations">
+                                </div>
+                            </div>
+
+                            <div class=" rows ">
+                                <div class="col heading text-center modal-text" id="modal-congrats-text">
+Congratulations
+                                </div>
+                            </div>
+
+                            <div class="rows">
+                                <div class="col text-center modal-text" id="modal-congrats-subtext" >
+                                    You did it!
+                                </div>
+                            </div>
+
+                            <div class="rows ">
+                                <div class="col text-center modal-text">
+                                    <button  type="button" id="btn-nextpage" class="btn" onclick="nextPage()">Continue</button>
+                                </div>
+
+
+                            </div>
+
+
+
+                           <!-- <div id="modal-img-div">
+                            <img id="img-checked"  src="img/checked.png" alt="Congratulations">
+                            </div>
+                            <p id="modal-congrats-text">
                                 Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae,
                             </p>
                             <div class="btn-wrapper">
                                 <button  type="button" class="btn btn-primary btn-center" onclick="nextPage()">Continue</button>
-                            </div>
+                            </div>-->
                         </div>
 
                     </div>
